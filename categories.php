@@ -7,10 +7,7 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-3">
-			test
-		</div>
-		<div class="col-md-9">
+		<div class="col-md-12">
 			<div class="row">
 			<h1 class="text-center">
 				Category Items

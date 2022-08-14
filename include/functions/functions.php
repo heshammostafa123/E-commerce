@@ -4,7 +4,7 @@
 		get All function
 		function to get All Fileds form database table
 	***/
-	function GetAllFrom($field,$table,$where=null,$and=null,$orderby,$ordering='DESC'){
+	function GetAllFrom($field,$table,$where=null,$and=null,$orderby="id",$ordering='DESC'){
 		global $connect;
 		$GetAll=$connect->prepare("SELECT $field FROM $table  $where $and order by $orderby $ordering");
 		$GetAll->execute();
